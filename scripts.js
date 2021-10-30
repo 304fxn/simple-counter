@@ -10,11 +10,13 @@ btnincrease.addEventListener("click", function () {
   btncount.innerHTML = count;
   btncount.style.color = "green";
 });
+
 btndecrease.addEventListener("click", function () {
   count--;
   btncount.innerHTML = count;
   btncount.style.color = "red";
 });
+
 btnreset.addEventListener("click", function () {
   count = 0;
   btncount.innerHTML = count;
