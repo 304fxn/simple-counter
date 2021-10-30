@@ -11,7 +11,7 @@ btnincrease.addEventListener("click", function () {
 });
 btndecrease.addEventListener("click", function () {
   if (count == 0) {
-    console.log("Nu poti micsora numarul!");
+    console.log("You cannot drop below 0!");
   } else {
     count--;
     btncount.innerHTML = count;
